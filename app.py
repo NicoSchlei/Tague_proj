@@ -67,5 +67,3 @@ line_fig_2.update_layout({ 'plot_bgcolor': 'rgba(0, 0, 0, 0)', 'paper_bgcolor': 
 col1.plotly_chart(line_fig_2,  use_container_width=True)
 #
 #col1.image('tree_full.png',output_format='png')
-
-    
