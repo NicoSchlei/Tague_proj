@@ -1,8 +1,7 @@
 import plotly.express as px
 import pandas as pd
 import streamlit as st
-import pydot
-import graphviz as gv
+
 
 
 df = pd.read_csv('df.csv')
@@ -64,7 +63,4 @@ line_fig_2.for_each_trace(lambda t: t.update(name = newnames[t.name],
 line_fig_2.update_layout({ 'plot_bgcolor': 'rgba(0, 0, 0, 0)', 'paper_bgcolor': 'rgba(0, 0, 0, 0)', })
 
 col1.plotly_chart(line_fig_2,  use_container_width=True)
-#
-#col1.image('tree_full.png',output_format='png')
-
 
