@@ -26,7 +26,6 @@ dataframe-image==0.1.1
 dbus-python==1.2.18
 debugpy==1.6.2
 decorator==4.4.2
-defer==1.0.6
 defusedxml==0.7.1
 distro==1.7.0
 dnspython==2.1.0
